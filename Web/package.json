@@ -1,0 +1,53 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run serve --open",
+    "start": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "eslint --fix --ext .js,.vue src"
+  },
+  "dependencies": {
+    "@vue/cli-plugin-router": "5.0.0-beta.7",
+    "@vue/cli-service": "5.0.0-beta.7",
+    "@vue/cli-shared-utils": "^3.12.1",
+    "axios": "^0.24.0",
+    "copy-webpack-plugin": "^10.0.0",
+    "core-js": "^3.19.3",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.3",
+    "vuelidate": "^0.7.7",
+    "vuetify": "^2.6.1",
+    "vuex": "^3.6.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@mdi/font": "^6.5.95",
+    "@mdi/js": "^6.5.95",
+    "@vue/cli-plugin-vuex": "5.0.0",
+    "deepmerge": "^4.2.2",
+    "prettier": "2.5.1",
+    "sass": "^1.44.0",
+    "sass-loader": "^12.4.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "singleQuote": true
+  },
+  "emmet.includeLanguages": {
+    "vue": "html"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
